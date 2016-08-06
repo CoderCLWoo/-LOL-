@@ -10,6 +10,7 @@
 @class Model;
 
 @interface FocusTableViewCell : UITableViewCell
+
 @property (strong, nonatomic) IBOutlet UIImageView *imgView;
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *durationLabel;
