@@ -22,7 +22,4 @@
 /** GET 请求数据  */
 - (void)getDataFromUrlString:(NSString *)urlString;
 
-/** POST 请求数据  */
-//- (void)postDataFromUrlString:(NSString *)urlString;
-
 @end

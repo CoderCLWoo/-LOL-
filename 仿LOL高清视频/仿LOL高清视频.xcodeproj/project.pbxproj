@@ -69,7 +69,6 @@
 		3B53952A1D058B81003B5105 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5395281D058B81003B5105 /* HeroTableViewCell.xib */; };
 		3B53952D1D059B51003B5105 /* CurrentHeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53952C1D059B51003B5105 /* CurrentHeroTableViewController.m */; };
 		3B5395301D05A932003B5105 /* CommentateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53952F1D05A932003B5105 /* CommentateModel.m */; };
-		3B5395391D05B8FB003B5105 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5395381D05B8FB003B5105 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,8 +205,6 @@
 		3B53952C1D059B51003B5105 /* CurrentHeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentHeroTableViewController.m; sourceTree = "<group>"; };
 		3B53952E1D05A932003B5105 /* CommentateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentateModel.h; sourceTree = "<group>"; };
 		3B53952F1D05A932003B5105 /* CommentateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentateModel.m; sourceTree = "<group>"; };
-		3B5395371D05B8FB003B5105 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		3B5395381D05B8FB003B5105 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,32 +255,15 @@
 		3B5394521D053761003B5105 /* 仿LOL高清视频 */ = {
 			isa = PBXGroup;
 			children = (
-				3B5394561D053761003B5105 /* AppDelegate.h */,
-				3B5394571D053761003B5105 /* AppDelegate.m */,
-				3B5394D51D0546E1003B5105 /* PrefixHeader.pch */,
-				3B5394591D053761003B5105 /* ViewController.h */,
-				3B53945A1D053761003B5105 /* ViewController.m */,
-				3B5394BE1D054629003B5105 /* Request.h */,
-				3B5394BF1D054629003B5105 /* Request.m */,
-				3B0C28AD1D069EC900DCC00A /* 11.tiff */,
-				3B0C28AE1D069EC900DCC00A /* 22.tiff */,
-				3B0C28AF1D069EC900DCC00A /* 33.tiff */,
-				3B0C28A41D069AFA00DCC00A /* focus_normal.png */,
-				3B0C28A11D069AFA00DCC00A /* focus_selected.png */,
-				3B0C28A31D069AFA00DCC00A /* hero_normal.png */,
-				3B0C28A51D069AFA00DCC00A /* hero_selected.png */,
-				3B0C28A21D069AFA00DCC00A /* say_normal.png */,
-				3B0C28A61D069AFA00DCC00A /* say_selected.png */,
+				3B6157281D55EEFC006A850E /* Other */,
+				3B6157271D55EECB006A850E /* Lib */,
+				3B6157261D55EE7D006A850E /* Resources */,
 				3B53948F1D053AF8003B5105 /* 焦点视频 */,
 				3B5394901D053B14003B5105 /* 英雄 */,
 				3B5394911D053B21003B5105 /* 解说 */,
 				3B53945C1D053761003B5105 /* Main.storyboard */,
 				3B53945F1D053761003B5105 /* Assets.xcassets */,
 				3B5394611D053761003B5105 /* LaunchScreen.storyboard */,
-				3B5394DF1D0551A2003B5105 /* SDWebImage */,
-				3B5394D61D054743003B5105 /* MBProgressHUD */,
-				3B5394AD1D054629003B5105 /* MJRefresh */,
-				3B53949F1D054629003B5105 /* AFNetworking */,
 				3B5394641D053761003B5105 /* Info.plist */,
 				3B5394531D053761003B5105 /* Supporting Files */,
 			);
@@ -293,6 +273,7 @@
 		3B5394531D053761003B5105 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B5394D51D0546E1003B5105 /* PrefixHeader.pch */,
 				3B5394541D053761003B5105 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -330,8 +311,6 @@
 				3B53950C1D0555FE003B5105 /* DetailViewController.m */,
 				3B53951A1D0563E3003B5105 /* RecentViewController.h */,
 				3B53951B1D0563E3003B5105 /* RecentViewController.m */,
-				3B5395371D05B8FB003B5105 /* TableViewController.h */,
-				3B5395381D05B8FB003B5105 /* TableViewController.m */,
 				3B53951D1D056A75003B5105 /* DataHandle.h */,
 				3B53951E1D056A75003B5105 /* DataHandle.m */,
 			);
@@ -454,6 +433,46 @@
 				3B5394FC1D0551A2003B5105 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		3B6157261D55EE7D006A850E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C28AD1D069EC900DCC00A /* 11.tiff */,
+				3B0C28AE1D069EC900DCC00A /* 22.tiff */,
+				3B0C28AF1D069EC900DCC00A /* 33.tiff */,
+				3B0C28A41D069AFA00DCC00A /* focus_normal.png */,
+				3B0C28A11D069AFA00DCC00A /* focus_selected.png */,
+				3B0C28A31D069AFA00DCC00A /* hero_normal.png */,
+				3B0C28A51D069AFA00DCC00A /* hero_selected.png */,
+				3B0C28A21D069AFA00DCC00A /* say_normal.png */,
+				3B0C28A61D069AFA00DCC00A /* say_selected.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B6157271D55EECB006A850E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3B53949F1D054629003B5105 /* AFNetworking */,
+				3B5394D61D054743003B5105 /* MBProgressHUD */,
+				3B5394AD1D054629003B5105 /* MJRefresh */,
+				3B5394DF1D0551A2003B5105 /* SDWebImage */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		3B6157281D55EEFC006A850E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3B5394561D053761003B5105 /* AppDelegate.h */,
+				3B5394571D053761003B5105 /* AppDelegate.m */,
+				3B5394591D053761003B5105 /* ViewController.h */,
+				3B53945A1D053761003B5105 /* ViewController.m */,
+				3B5394BE1D054629003B5105 /* Request.h */,
+				3B5394BF1D054629003B5105 /* Request.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,7 +643,6 @@
 				3B5395071D0551A2003B5105 /* UIImage+MultiFormat.m in Sources */,
 				3B5395081D0551A2003B5105 /* UIImageView+HighlightedWebCache.m in Sources */,
 				3B5394C31D054629003B5105 /* AFURLRequestSerialization.m in Sources */,
-				3B5395391D05B8FB003B5105 /* TableViewController.m in Sources */,
 				3B5395041D0551A2003B5105 /* SDWebImagePrefetcher.m in Sources */,
 				3B53951F1D056A75003B5105 /* DataHandle.m in Sources */,
 				3B5394CA1D054629003B5105 /* MJRefreshHeaderView.m in Sources */,
@@ -789,11 +807,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/wuchunlong/Uplooking iOS20160315/课堂笔记/2-3. 网络(Since 20160601)/作业20160607—吴春龙/No_4 LOL高清视频/仿LOL高清视频/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "仿LOL高清视频/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿LOL高清视频/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uplooking.-LOL----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CoderCLWoo.-LOL----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -802,11 +820,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/wuchunlong/Uplooking iOS20160315/课堂笔记/2-3. 网络(Since 20160601)/作业20160607—吴春龙/No_4 LOL高清视频/仿LOL高清视频/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "仿LOL高清视频/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿LOL高清视频/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uplooking.-LOL----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CoderCLWoo.-LOL----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

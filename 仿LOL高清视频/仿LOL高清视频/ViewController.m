@@ -42,17 +42,10 @@
     
     self.viewControllers = @[navController1, navController2, navController3];
     
-    
-    
-    
-    
-    
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

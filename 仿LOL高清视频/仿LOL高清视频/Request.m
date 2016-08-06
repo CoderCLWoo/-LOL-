@@ -14,7 +14,7 @@
 - (void)getDataFromUrlString:(NSString *)urlString {
     
     MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].windows.firstObject.rootViewController.view animated:YES];
-    HUD.label.text = @"努力加载中...";
+    HUD.label.text = @"玩命加载中...";
     
     // 创建HTTP请求管理类
     AFHTTPSessionManager *mananger = [AFHTTPSessionManager manager];
